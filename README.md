@@ -27,7 +27,7 @@ Steps:
 7. Run the pipeline
 8. Install the Docker
    https://docs.docker.com/engine/install/ubuntu/
-9. 
+9. Go to manifests in repo and change the ACR name and your repo names in both deployment.yml & service.yml files
    
 
 
