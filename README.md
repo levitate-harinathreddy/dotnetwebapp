@@ -25,6 +25,9 @@ Steps:
 <img width="341" alt="image" src="https://github.com/levitate-harinathreddy/dotnetwebapp/assets/121453003/a6237064-207e-4f8f-b4c2-6ea034b8777b">
 6. Add Publish after copy files
 7. Run the pipeline
+8. Install the Docker
+   https://docs.docker.com/engine/install/ubuntu/
+9. 
    
 
 
