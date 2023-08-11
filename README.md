@@ -13,6 +13,21 @@ Flow:
 - Deploy (AKS)
 - Creation of deployment.yml and service.yml files
 
+Steps:
+1. Import the code from github to Azure repo.
+2. Make sure you have Dockerfile, Manifest files(deployment.yml, service.yml)
+3. Remove azure-pipelines.yml and create Manually for better understanding.
+4. Create build pipeline (azure-pipelines.yml), select new pipeline --> Azure repo --> select your repo --> choose Azure kubernetes one and provide the details and create it.
+5. Before deploying you need to modify one thing.. update the yml files as below.
+<img width="257" alt="image" src="https://github.com/levitate-harinathreddy/dotnetwebapp/assets/121453003/6cd8c6fb-0b06-4e6d-91f0-60a4b04077c0">
+<img width="278" alt="image" src="https://github.com/levitate-harinathreddy/dotnetwebapp/assets/121453003/303d1d8e-21f0-4d91-9b30-d3440b3f4cd4">
+<img width="278" alt="image" src="https://github.com/levitate-harinathreddy/dotnetwebapp/assets/121453003/862c4c0a-cd8e-4a89-889e-bb5700881ec6">
+<img width="341" alt="image" src="https://github.com/levitate-harinathreddy/dotnetwebapp/assets/121453003/a6237064-207e-4f8f-b4c2-6ea034b8777b">
+6. Add Publish after copy files
+7. Run the pipeline
+   
+
+
 Commands:
 // This will allow to track new POD creation
 
